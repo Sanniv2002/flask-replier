@@ -22,7 +22,7 @@ This is a simple web application that allows users to send messages via email to
 
 ## Prerequisites
 
-1. **Python**: Make sure Python 3.7+ is installed.
+1. **Python**: Make sure Python 3.10+ is installed.
 2. **SMTP Configuration**:
    - A Gmail account or another email provider that supports SMTP.
    - For Gmail, enable **2-Step Verification** and create an **App Password**.
