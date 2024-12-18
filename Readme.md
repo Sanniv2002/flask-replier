@@ -35,5 +35,16 @@ This is a simple web application that allows users to send messages via email to
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/message-sender-app.git
-   cd message-sender-app
+   git clone https://github.com/Sanniv2002/flask-replier.git
+   cd flask-replier
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv ./venv
+   source ./venv/bin/activate
+   pip install -r requirements.txt
+
+3. Start the flask server:
+   ```bash
+   export $(cat .env | xargs)
+   python app.py
