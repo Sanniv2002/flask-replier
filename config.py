@@ -5,3 +5,5 @@ class Config:
     SMTP_PORT = 587
     SENDER_EMAIL = os.getenv("SENDER_EMAIL")
     SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
+    COOKIE = os.getenv("Cookie")
+    APOLLO = os.getenv("Apollo")
